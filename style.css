@@ -1,3 +1,4 @@
+
 .tutorial {
   width: 600px;
   text-align: center;
@@ -5,8 +6,12 @@
 }
 
 figure.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: black;
 }
 
@@ -15,7 +20,7 @@ figure .image img {
 }
 
 .notification {
-  margin-top: 20px !important;
+  margin-top: 40px !important;
 }
 
 .results {
@@ -32,13 +37,20 @@ figure .image img {
 }
 
 .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .dropdown-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 60px;
 }
 
